@@ -12,7 +12,12 @@ namespace WebApp_DevOps.Controllers
         {
             return View();
         }
-
+        
+        public ActionResult Message()
+        {
+            return Content("Hello World");
+        }
+        
         public ActionResult About()
         {
             ViewBag.Message = "Your application description page.";
