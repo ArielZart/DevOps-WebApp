@@ -10,18 +10,8 @@ namespace WebApp_DevOps.Controllers
     {
         public ActionResult Index()
         {
-            return View();
-        }
-        
-        public ActionResult Message()
-        {
-            return Content("Hello World");
-        }
-        
-        public ActionResult MessageNewUpdate()
-        {
-            return Content("Hello World");
-        }
+            return Content("Hello World, teste de DevOps");
+        } 
         
         public ActionResult About()
         {
